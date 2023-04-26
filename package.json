@@ -1,0 +1,21 @@
+{
+  "name": "to-do-app",
+  "version": "1.0.0",
+  "description": "[![NPM Version][npm-version-image]][npm-url] [![NPM Downloads][npm-downloads-image]][npm-url] [![Linux Build][travis-image]][travis-url] [![Windows Build][appveyor-image]][appveyor-url] [![Test Coverage][coveralls-image]][coveralls-url]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "To",
+    "do"
+  ],
+  "author": "Vaibhavdixit_shyam",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.3"
+  }
+}
